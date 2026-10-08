@@ -12,11 +12,11 @@
     <header class="gap-10">
         <!-- nav var section -->
         <section>
-            <nav class="flex justify-between justify-items-center items-center mx-20 my-6">
-                <div class="font-bold text-[28px] text-[#131313]">
+            <nav class="flex justify-between justify-items-center items-center mx-4 md:mx-10 lg:mx-20 my-6 gap-2 ">
+                <div class="font-bold text-[28px] text-[#131313] text-nowrap">
                     Book Vibe
                 </div>
-                <div>
+                <div class="hidden lg:flex gap-4">
                     <ul class="flex justify-between justify-items-center items-center gap-4 ">
                         <li class="font-semibold text-[18px] text-[#23BE0A] border border-[#23BE0A] px-5 py-3.5 rounded-lg">
                             Home</li>
@@ -24,11 +24,11 @@
                         <li class="py-3.5 px-[17px] text-[18px] text-[#131313]/80 ">Page to Read </li>
                     </ul>
                 </div>
-                <div>
-                    <button class="px-7 py-4.5 text-white bg-[#23BE0A] rounded-lg font-semibold text-[18px] items-center ">
+                <div class="flex gap-2 md:gap-4 lg:gap-8">
+                    <button class="px-2 md:px-4 lg:px-7 py-2 lg:py-4.5 text-white bg-[#23BE0A] rounded-lg font-semibold text-[18px] items-center text-nowrap ">
                         Sign in
                     </button>
-                    <button class="px-7 py-4.5 text-white bg-[#59C6D2] rounded-lg font-semibold text-[18px] items-center ">
+                    <button class="px-2 md:px-4 lg:px-7 py-2 lg:py-4.5 text-white bg-[#59C6D2] rounded-lg font-semibold text-[18px] items-center text-nowrap ">
                         Sign Up
                     </button>
                 </div>
@@ -36,9 +36,9 @@
         </section>
         <!-- Hero Section -->
         <section>
-            <div class="mx-20 grid grid-cols-2 justify-between justify-items-center items-center bg-[#131313]/5 rounded-3xl py-8 my-8">
+            <div class="mx:4 md:mx-10 lg:mx-20  justify-between justify-items-center items-center bg-[#131313]/5 rounded-3xl px-2 md:px-4 lg:px-7 py-2 lg:py-4.5 py-4 lg:py-8 flex flex-col-reverse lg:flex-row ">
                 <div class="space-y-12 rounded-lg pl-6">
-                    <div class="font-bold text-[56px] text-[#131313] text-base/21">
+                    <div class="font-bold text-3xl lg:text-[56px] text-[#131313] ">
                         Books to freshen up<br> your bookshelf
                     </div>
                     <div>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="/assets/Banner.png" alt="">
+                    <img class="w-45 lg:w-auto" src="/assets/Banner.png" alt="">
 
                 </div>
             </div>
@@ -57,13 +57,13 @@
     </header>
     <main>
         <!-- Card Section -->
-        <section class="items-center mx-20">
+        <section class="items-center mx-4 md:mx-10 lg:mx-20">
             <div class="justify-items-center mb-7 mt-20">
                 <h3 class="font-bold text-[40px] text-[#131313]">
                     Books
                 </h3>
             </div>
-            <div class=" grid grid-cols-3 gap-6 mb-20">
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
                 <!-- 3 Coloum div -->
                 <div class="border border-[#131313]/15 p-6 rounded-2xl gap-6 ">
                     <!-- 1 coloum div -->
